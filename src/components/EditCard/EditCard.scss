@@ -1,0 +1,40 @@
+.EditCard {
+    > input {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    &__buttons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+  
+      > button {
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  
+    &__add-button {
+      background-color: aqua;
+      color: #fff;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 0;
+      border-radius: 0.25rem;
+  
+      &:disabled {
+        background-color: grey;
+      }
+    }
+  
+    &__cancel-button {
+      background-color: #c00303;
+      color: grey;
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: 0;
+    }
+  }
+  

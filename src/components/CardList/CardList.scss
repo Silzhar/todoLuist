@@ -1,0 +1,8 @@
+.CardList {
+  width: 98%;
+  padding-left: 0;
+
+  &__not-completed {
+    color: grey;
+  }
+}

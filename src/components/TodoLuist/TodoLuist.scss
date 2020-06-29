@@ -1,0 +1,45 @@
+.TodoLuist {
+    padding: 1.5rem 2rem;
+  
+    &__title {
+      text-align: left;
+    }
+  
+    &__list {
+      padding-left: 2rem;
+    }
+  
+    &__end {
+      display: flex;
+      align-items: center;
+  
+      > span {
+        color: grey;
+        font-size: 1.25rem;
+      }
+    }
+  
+    &__button {
+      background-color: transparent;
+      padding: 0;
+      border: 0;
+      color: aqua;
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+      cursor: pointer;
+      outline: none;
+    }
+  
+    @media screen and (max-width: 600px) {
+      padding: 1rem 0.5rem;
+
+      &__title {
+        font-size: 1rem;
+      }
+
+      .Card__text {
+        font-size: 0.7rem;
+      }
+
+    }
+  }

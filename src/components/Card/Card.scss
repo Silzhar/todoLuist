@@ -1,0 +1,59 @@
+.Card {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  
+    &__button {
+      background: transparent;
+      border: 0;
+      font-size: 1.25rem;
+      cursor: pointer;
+      outline: none;
+      padding: 0;
+      margin-right: 0.5rem;
+  
+      &:hover {
+        color: aqua;
+      }
+    }
+
+    &__text {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+    }
+  
+    &__title {
+      margin: 1rem;
+    }
+
+    &__urgent {
+      display: flex;
+
+    }
+
+    &__bell {
+      color:hsl(0, 96%, 33%);
+
+      &:hover {
+        color: aqua;
+      }
+    }
+
+    &__edit {
+      color: rgb(0, 51, 51);
+
+      &:hover {
+        color: aqua;
+      }
+    }
+
+    &__edition {
+      display: flex;
+      align-items: flex-start;
+    }
+  
+}
